@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
  */
 
 public class NetworkManager {
-    private static ExecutorService requestExecutor = Executors.newCachedThreadPool();
+    private static ExecutorService requestExecutor = Executors.newCachedThreadPool();//删除了全局用户名
     public static void get(BaseNetworkTask task) {
         requestExecutor.execute(new GetRequest(task));
     }
