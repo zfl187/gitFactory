@@ -13,7 +13,7 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 public class BqssApplication extends Application {
     private static String appId;
     private static BqssApplication mInstance;
-
+//没什么好注释的
     @Override
     public void onCreate() {
         super.onCreate();
