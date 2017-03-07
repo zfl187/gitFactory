@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.READ_LOGS"/>
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
         android:name=".BqssApplication"
         android:allowBackup="true"
@@ -28,14 +28,16 @@
         </activity>
         <activity android:name=".ui.QuaterSearchActivity"
                   android:windowSoftInputMode="adjustResize"/>
+        //第二个地方修改
         <activity android:name=".ui.HalfSearchActivity"
                   android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".ui.FullSearchActivity"
                   android:windowSoftInputMode="adjustResize"/>
+        //第三个个地方修改
         <activity android:name=".ui.FullSearchHomePage"
                   android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".ui.FullSearchResultPage"
                   android:windowSoftInputMode="stateHidden"/>
     </application>
-
+//gittwo 修改了文件
 </manifest>
