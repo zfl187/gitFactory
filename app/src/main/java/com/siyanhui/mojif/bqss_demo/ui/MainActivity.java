@@ -10,7 +10,7 @@ import android.widget.RelativeLayout;
 import com.siyanhui.mojif.bqss_demo.R;
 
 public class MainActivity extends Activity implements View.OnClickListener {
-//aaa
+//aaabbb
     private RelativeLayout mQuaterBtn;
     private RelativeLayout mHalfBtn;
     private RelativeLayout mFullBtn;
