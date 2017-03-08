@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.READ_LOGS"/>
     <uses-permission android:name="android.permission.READ_LOGS"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- bbA-->
     <application
         android:name=".BqssApplication"
         android:allowBackup="true"
