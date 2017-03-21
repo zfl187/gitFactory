@@ -10,8 +10,9 @@
     <uses-permission android:name="android.permission.READ_LOGS"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 	<!-- AAA-->
+    <!-- bbA-->
     <application
-	
+
         android:name=".BqssApplication"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
