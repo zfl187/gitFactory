@@ -9,8 +9,6 @@
     <uses-permission android:name="android.permission.READ_LOGS"/>
     <uses-permission android:name="android.permission.READ_LOGS"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-	<!-- AAA-->
-    <!-- bbA-->
     <application
 
         android:name=".BqssApplication"
@@ -43,7 +41,5 @@
                   android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".ui.FullSearchResultPage"
                   android:windowSoftInputMode="stateHidden"/>
-				  //修改第二个地方
     </application>
-//gittwo 修改了文件
 </manifest>

@@ -3,4 +3,6 @@
  */
 
 public class a {
+    private boolean c;
+
 }
