@@ -4,5 +4,7 @@
 
 public class a {
     private boolean c;
-
+    private void aa(){
+        String aaa = "aaaaa";
+    }
 }
